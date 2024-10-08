@@ -3,7 +3,7 @@ const http = require('http');
 const socketIO = require('socket.io');
 const mongoose = require('mongoose');
 
-const mongoURI = "mongodb+srv://carlisdjandres6:OzcBVqlCnmAIPDgu@cluster0.tuet2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const mongoURI = mongodbatlasURL;
 
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Conectado ao MongoDB Atlas'))
