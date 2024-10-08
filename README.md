@@ -31,7 +31,7 @@ Este projeto é um sistema de backend para o aplicativo HeartbeatSecurity, compo
    ```
 
 3. Configure as variáveis de ambiente:
-   Crie um arquivo `.env` no diretório raiz e adicione o seguinte:
+   Você pode criar um arquivo `.env` no diretório raiz e adicione o seguinte:
    ```
    MONGODB_URI=sua_string_de_conexão_mongodb_atlas
    ```
