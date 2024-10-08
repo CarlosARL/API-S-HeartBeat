@@ -5,13 +5,11 @@ Este projeto é um sistema de backend para o aplicativo HeartbeatSecurity, compo
 ## Estrutura do Projeto
 
 ```
-C:\Users\carlos\Desktop\Apis\API'S\
+..\API'S\
 │   AuthServer.js
 │   patientServer.js
 │   realtimeServer.js
 │   package.json
-│   package-lock.json
-│   .gitignore
 ```
 
 ## Pré-requisitos
@@ -23,8 +21,8 @@ C:\Users\carlos\Desktop\Apis\API'S\
 
 1. Clone o repositório:
    ```
-   git clone <url-do-repositório>
-   cd <diretório-do-projeto>
+   git clone https://github.com/CarlosARL/API-S-HeartBeat
+   cd API-S-HeartBeat
    ```
 
 2. Instale as dependências:
@@ -99,15 +97,3 @@ Este projeto usa MongoDB Atlas como banco de dados. A string de conexão está e
 - socket.io: Motor em tempo real para conexões WebSocket
 
 Para uma lista completa de dependências, consulte o arquivo `package.json`.
-
-## Nota de Segurança
-
-Certifique-se de manter sua string de conexão do MongoDB e outras informações sensíveis seguras. Não cometa o arquivo `.env` para o controle de versão.
-
-## Contribuindo
-
-Por favor, leia o arquivo CONTRIBUTING.md (se disponível) para detalhes sobre nosso código de conduta e o processo para enviar pull requests.
-
-## Licença
-
-Este projeto está licenciado sob a [Sua Licença] - veja o arquivo LICENSE.md para detalhes.
