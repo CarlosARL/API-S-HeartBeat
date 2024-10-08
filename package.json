@@ -1,0 +1,18 @@
+{
+    "name": "heartbeat-security-backend",
+    "version": "1.0.0",
+    "description": "Backend for HeartbeatSecurity app",
+    "main": "index.js",
+    "scripts": {
+      "start:auth": "node authServer.js",
+      "start:patient": "node patientServer.js",
+      "start:realtime": "node realtimeServer.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "body-parser": "^1.19.0",
+      "cors": "^2.8.5",
+      "mongoose": "^5.12.3",
+      "socket.io": "^4.0.1"
+    }
+  }
